@@ -1,7 +1,7 @@
 <template>
   <div>
     <tab-bar>
-      <tab-bar-item path="/home" activeColor="blue">
+      <tab-bar-item path="/home" >
         <template v-slot:item-icon>
           <img src="~assets/img/tabbar/home.svg" />
         </template>
@@ -23,7 +23,7 @@
           <div>分类</div>
         </template>
       </tab-bar-item>
-      <tab-bar-item path="/shopcar" activeColor="deepPink">
+      <tab-bar-item path="/shopcar" >
         <template v-slot:item-icon>
           <img src="~assets/img/tabbar/shopcar.svg" />
         </template>

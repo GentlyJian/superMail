@@ -17,9 +17,5 @@ export default function request(option, success, fuilure) {
     return Promise.reject(err);
   })
 
-  return instance(option).then(res => {
-     resolve(res);
-  }).catch(err => {
-    reject(err);
-  });
+  return instance(option);
 }
