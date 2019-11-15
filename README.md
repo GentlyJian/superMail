@@ -21,7 +21,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ### 克隆项目
 git clong url
 
-### 添加到本地 
+### 添加到暂存 
 git add .
 
 ### 提交到.git
