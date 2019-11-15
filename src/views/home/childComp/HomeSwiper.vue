@@ -16,7 +16,9 @@ export default {
   props: {
     banners: {
       type: Array,
-      defalut: []
+      defalut(){
+        return []
+      }
     },
   },
   components: {
